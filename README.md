@@ -1,24 +1,15 @@
 # vue3-chrome-extension-template
 
-## Project setup
+## 使用
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
-```
-
-### Compiles and minifies for production
-```
 yarn build
+yarn build:crx
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 调试插件
+- 使用`yarn serve`运行项目
+- 打开谷歌浏览器拓展程序页面
+- 打开开发者模式，选择`加载已解压的扩展程序`
+- 导入项目中的`dist`文件夹即可到目标页查看插件状态
