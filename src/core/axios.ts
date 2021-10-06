@@ -1,10 +1,3 @@
-/*
- * @Description: axios
- * @Author: Zeffon
- * @Date: 2021-10-05 09:00:30
- * @LastEditors: Zeffon
- * @LastEditTime: 2021-10-06 15:08:22
- */
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
 import config from './config'
 import qs from 'qs'

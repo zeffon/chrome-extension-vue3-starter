@@ -1,10 +1,3 @@
-/*
- * @Description:
- * @Author: Zeffon
- * @Date: 2021-10-05 09:31:46
- * @LastEditors: Zeffon
- * @LastEditTime: 2021-10-06 14:42:35
- */
 /// <reference types="chrome"/>
 
 import App from './views/App.vue'
