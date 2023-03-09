@@ -1,5 +1,5 @@
 {
-  "name": "vue3-chrome-extension-template",
+  "name": "chrome-extension-vue3-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {

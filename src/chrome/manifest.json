@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
-	"name": "vue3-chrome-extension",
+	"name": "chrome-extension-vue3-starter",
 	"description": "基于vue3的chrome插件",
 	"version": "0.0.1",
 	"browser_action": {
-		"default_title": "vue3-chrome-extension",
+		"default_title": "chrome-extension-vue3-starter",
 		"default_icon": "assets/logo.png",
 		"default_popup": "popup.html"
 	},
