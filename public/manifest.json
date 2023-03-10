@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-extension-vue3-starter",
+  "version": "0.2.0",
+  "description": "chrome-extension-vue3-starter",
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "action": {
+    "default_popup": "src/browser/popup/index.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "js": ["src/browser/content/index.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "src/browser/background/index.js"
+  },
+  "options_page": "src/browser/options/index.html",
+
+  "permissions": ["storage", "tts"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/js/*.js",
+        "assets/css/*.css",
+        "icon.png"
+      ],
+      "matches": ["*://*/*"]
+    }
+  ]
+}

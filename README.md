@@ -1,16 +1,7 @@
-# chrome-extension-vue3-starter
+<h1 align="center">chrome-extension-vue3-starter</h1>
 
-## 使用
+## Features
 
-```
-yarn install
-yarn serve
-yarn build
-```
-
-## 调试
-
-- 使用`yarn serve`运行项目
-- 左上角更多 -> 更多工具 -> 拓展程序
-- 开启开发者模式，选择`加载已解压的扩展程序`
-- 导入项目中的`dist`文件夹即可
+- :bulb: **TypeScript**: support TypeScript
+- :art: **Prettier**：prettier lint code
+- :zap: **Vite**：Compile with Vite
