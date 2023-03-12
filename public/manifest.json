@@ -25,11 +25,7 @@
   "permissions": ["storage", "tts"],
   "web_accessible_resources": [
     {
-      "resources": [
-        "assets/js/*.js",
-        "assets/css/*.css",
-        "icon.png"
-      ],
+      "resources": ["assets/js/*.js", "assets/css/*.css", "icon.png"],
       "matches": ["*://*/*"]
     }
   ]
