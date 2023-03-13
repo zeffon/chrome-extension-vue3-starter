@@ -75,3 +75,6 @@ jobs:
 
       - name: Check formatting
         run: pnpm prettier --check .
+
+      - name: Typecheck
+        run: pnpm run typecheck
