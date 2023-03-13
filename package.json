@@ -4,7 +4,6 @@
   "description": "chrome-extension-vue3-starter",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "format": "prettier --write --cache .",
     "lint": "eslint --cache .",
     "watch": "vite build --watch",
